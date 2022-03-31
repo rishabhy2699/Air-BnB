@@ -1,0 +1,153 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../images/ourteam.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+
+}
+
+.team{
+
+    text-align: center;
+    font-size: 22px;
+    color: rgb(255, 0, 0);
+
+}
+
+.container div{
+
+    display: flex;
+    font-size: 28px;
+    flex-direction: column;
+    border: 1px black solid;
+}
+
+.arun h1{
+
+    background-color: blanchedalmond;
+    text-align: center;
+    color: #59DE1F;
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+
+}
+
+.arun p{
+
+    color: #00FF13;
+    font-size: 24px;
+    font-style: italic;
+
+}
+
+.abhinav h1{
+
+
+    background-color: blanchedalmond;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+    color: #59DE1F;
+}
+
+.abhinav p{
+
+    font-family: 'Merriweather', serif;
+    color: #00FF13;
+    font-size: 24px;
+    font-style: italic;
+
+}
+
+.abdul h1{
+
+    background-color: blanchedalmond;
+    text-align: center;
+    font-size: 28px;
+    color: #59DE1F;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.abdul p {
+
+    font-family: 'Merriweather', serif;
+    color: #00FF13;
+    font-size: 24px;
+    font-style: italic;
+}
+
+
+#sidebar{
+
+    
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    left: -200px;
+    background-color: black;
+}
+
+#sidebar span{
+
+    background-color: greenyellow;
+}
+
+
+#sidebar li{
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    color: white;
+    font-size: 15px;
+    padding: 15px 9px;
+       
+
+}
+
+#sidebar a{
+
+    color: greenyellow;
+    text-decoration: none;
+}
+
+#sidebar li:hover{
+
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.toggle-btn{
+
+    position: absolute;
+    left: 230px;
+    top: 20px;
+
+}
+
+.toggle-btn span{
+
+    display: block;
+    background-color: black;
+    width: 30px;
+    height: 5px;
+    margin: 5px 0px ; 
+}
+
+#sidebar.active{
+
+    left: 0;
+} 

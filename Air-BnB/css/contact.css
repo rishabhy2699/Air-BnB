@@ -1,0 +1,76 @@
+body{
+
+    background-color: black;
+}
+
+.rate{
+
+    display: flex;
+    text-align: center;
+    border: 1px black solid;
+    flex-direction: column;
+    color: white;
+}
+
+#sidebar{
+
+    
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    left: -200px;
+    background-color: black;
+}
+
+#sidebar span{
+
+    background-color: greenyellow;
+}
+
+
+#sidebar li{
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    color: white;
+    font-size: 15px;
+    padding: 15px 9px;
+       
+
+}
+
+#sidebar a{
+
+    color: greenyellow;
+    text-decoration: none;
+}
+
+#sidebar li:hover{
+
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.toggle-btn{
+
+    position: absolute;
+    left: 230px;
+    top: 20px;
+
+}
+
+.toggle-btn span{
+
+    display: block;
+    background-color: black;
+    width: 30px;
+    height: 5px;
+    margin: 5px 0px ; 
+}
+
+#sidebar.active{
+
+    left: 0;
+} 

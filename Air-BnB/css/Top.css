@@ -1,0 +1,248 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    background-color: black;
+    color: wheat;
+}
+
+p{
+
+    font-size: 30px;
+}
+
+h1{
+
+    font-size: 45px;
+}
+
+h2{
+
+    font-size: 32px;
+}
+
+#sidebar{
+
+    
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    left: -200px;
+    background-color: black;
+}
+
+#sidebar span{
+
+    background-color: greenyellow;
+}
+
+
+#sidebar li{
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    color: white;
+    font-size: 15px;
+    padding: 15px 9px;
+       
+
+}
+
+#sidebar a{
+
+    color: greenyellow;
+    text-decoration: none;
+}
+
+#sidebar li:hover{
+
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.toggle-btn{
+
+    position: absolute;
+    left: 230px;
+    top: 20px;
+
+}
+
+.toggle-btn span{
+
+    display: block;
+    background-color: black;
+    width: 30px;
+    height: 5px;
+    margin: 5px 0px ; 
+}
+
+#sidebar.active{
+
+    left: 0;
+} 
+
+
+.users tr{
+
+   color: white;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.users th{
+  
+    color: wheat;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.users td{
+
+    text-align: center;
+    background-color: transparent;
+    color: greenyellow;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.main tr{
+
+    color: wheat;
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+ }
+ 
+ .main th{
+   
+     color: wheat;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 20px;
+     background-color: transparent;
+ }
+ 
+ .main td{
+ 
+     text-align: center;
+     font-size: 18px;
+     background-color: transparent;
+     color: wheat;
+     font-family: 'Montserrat', sans-serif;
+     background-color: transparent;
+ }
+
+.center{
+
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.search input{
+  
+     font-size: 30px;
+     height: 50px;
+     border-radius: 30px;
+     text-align: center;
+     text-decoration: solid;
+     text-transform: uppercase;
+     font-family: 'Times New Roman', Times, serif;
+     font-style: cursive;
+}
+
+#btn{
+
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+#an{
+
+    color: greenyellow;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#cap{
+  
+    color: wheat;
+    background-color: black;
+
+}
+
+#cap1{
+
+    color: wheat;
+    background-color: black;
+}
+
+.users table{
+
+
+    height: fit-content;
+    width: fit-content;
+}
+
+.manage{
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+@media(min-width: 200px) and (max-width: 600px){
+
+
+    .manage{
+
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }    
+
+.main table{
+    
+
+    width: 300px;
+    height: 250px;
+}
+ 
+.users table{
+
+
+    height: fit-content;
+    width: fit-content;
+}
+
+}
+
+@media(min-width: 400px) and (max-width: 1024px){
+  
+
+.main table{
+    
+
+    width: fit-content;
+    height: fit-content;
+}
+ 
+.users table{
+
+
+    height: fit-content;
+    width: fit-content;
+}
+
+}

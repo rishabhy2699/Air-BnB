@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate Us Here</title>
+    <link rel="stylesheet" type="text/css" href="../css/Rate.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="sidebar" onclick="togglemenu()">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul id="lst">
+         <li id="home"><a href="../index.html">Home</a></li>
+         <li><a href="./DB.html">Direct Booking</a></li>
+         <li><a href="./Tophotel.html">Hotels</a></li>
+         <li><a href="./team.html">Team</a></li>
+         <li><a href="./contact.html">Contact</a></li>
+         <li><a href="./Rate.html">Rate</a></li>
+     </ul>   
+   </div>
+
+<div class="rate">
+    <div class="top"> 
+        <h1>RATE US HERE</h1>
+         <p>
+             Our Team work hard to improve your experience and provide you a great facility <br>
+
+         </p>
+
+         <h2>
+             Like our Work So rate us
+         </h2>
+        
+    </div>
+    <div class="review">
+         
+          <form action="Rate2.html">
+            <label for="first">First Name:</label><br>
+            <input type="name" name="First" placeholder="First Name" required >
+            <p></p>
+            <p></p>
+            <label for="Last">Last Name:</label><br>
+            <input type="name" name="Last" placeholder="Last Name" required>
+            <p></p>
+            <p></p>
+            <label for="mail">Email:</label><br>
+            <input type="email" id="h" name="mail" placeholder="xyz@xyz.com" required><br>
+            <p></p>
+             <label for="rate">  Rate Us</label><br>
+             <select name="rate" required>
+                 <option value="5">Execellent</option>
+                 <option value="4">Great</option>
+                 <option value="3">Good</option>
+                 <option value="2">Average</option>
+                 <option value="1">Bad</option>
+                 <option value="0">Very Bad</option>
+             </select><br>
+             <p></p>
+             <p></p>
+             <label for="suges">Any Suggestions</label><br>
+             <textarea name="suges" cols="30" rows="2"></textarea><br>
+             <input type="submit" value="Submit" id="a">
+          </form> 
+
+
+    </div>
+
+
+  </div>
+</body>
+   
+  <script src="../js/sidebar.js" ></script>
+</html>

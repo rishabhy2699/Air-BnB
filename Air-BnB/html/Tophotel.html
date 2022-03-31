@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Hotel Websites</title>
+    <link rel="stylesheet" href="../css/Top.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="sidebar" onclick="togglemenu()">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul id="lst">
+         <li id="home"><a href="../index.html">Home</a></li>
+         <li><a href="./DB.html">Direct Booking</a></li>
+         <li><a href="./Tophotel.html">Hotels</a></li>
+         <li><a href="./team.html">Team</a></li>
+         <li><a href="./contact.html">Contact</a></li>
+         <li><a href="./Rate.html">Rate</a></li>
+     </ul>   
+   </div>
+    <div class="manage">
+      <div class="search">
+          <input type="search" class="in" id="sr" placeholder="CITY NAME" required> 
+          <button id="btn">Q</button>
+      </div>
+        <h1 id="blur">KINDLY TYPE CITY NAME TO FIND THE LOCATIONS</h1>
+      <div id="users" style="overflow-y:auto;">
+
+      </div>
+    </div>    
+
+      
+</body>
+
+<script src="../js/main.js"></script>
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/All.js"></script>
+<script src="../js/sidebar.js" ></script>
+<script src="../js/alert.js"></script>
+
+</html>
